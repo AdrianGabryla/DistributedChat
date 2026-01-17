@@ -1,7 +1,5 @@
-# Rozproszony System Komunikacji (Distributed Chat System)
-
 ## 1. Cel projektu
-Celem projektu jest implementacja rozproszonego systemu komunikacji w czasie rzeczywistym, który demonstruje mechanizmy programowania równoległego oraz rozproszonego. System pozwala na tworzenie oddzielnych chatów rozmów, ustawianie nazw oraz jednoczesną obsługę wielu użytkowników.
+Celem projektu jest implementacja rozproszonego systemu komunikacji. System pozwala na tworzenie oddzielnych chatów rozmów, ustawianie nazw oraz jednoczesną obsługę wielu użytkowników.
 
 ## 2. Zastosowane mechanizmy
 
@@ -42,4 +40,5 @@ Aplikacja kliencka składa się z trzech głównych sekcji, które zarządzają 
 2.  **Uruchom klientów** otwórz dwa nowe terminale i uruchom 'python chat_client.py'.
 2.  Na obu klientach ustaw ten sam pokój (np. `ogolny`). Wyślij wiadomość, otrzyma ją drugi klient.
 3.  Otwórz trzeciego klienta i ustaw mu inny pokój (np. `TEST`).
+
 4.  Wyślij wiadomość z Klienta3 zauważysz, że Klient1 i Klient2 jej nie otrzymali.
